@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>About Page</title>
+  <link rel="stylesheet" href="SAED.css" />
+</head>
+<body>
+  <header>
+    <img src="open_nav.png" id="op_nav" onclick="open_nav()"/>
+    <h3>SAED WEB PROJECT</h3>
+    <img src="nysc.png" />
+  </header>
+   <marquee>
+    Here, we expose you to the information you need to know conserning NYSC
+  </marquee>
+  <nav id="rnav">
+    <header>
+      <img src="nysc.png" />
+      <h3>Quick Links</h3>
+      <img src="close_nav.png" id="cl_nav" onclick="close_nav()" />
+    </header>
+    <aside>
+      <ul>
+        <li>
+          <a href="index.html">HOME</a>
+        </li>
+        <li>
+          <a href="About.html">ABOUT NYSC</a>
+        </li>
+        <li>
+         <a href="https://portal.nysc.org.ng/nysc1/ResumePayment.aspx">
+            CORPERS LOGIN
+         </a>
+        </li>
+        <li>
+          <a href="Contact.html">CONTACT US</a>
+        </li>
+      </ul>
+    </aside>
+  </nav>
+  <div class="nysc_info">
+    The National Youth Service Corps (NYSC) is a mandatory, post-tertiary scheme
+    set up by the Nigerian government during the military regime of Head of
+    State, Yakubu Gowon, to reconstruct, reconcile and rebuild the country after
+    the Nigerian Civil war. There is no military conscription in Nigeria, but
+    since 1973, graduates of universities and polytechnics have been required to
+    take part in the National Youth Service Corps program for one year. This
+    is known as the "national service year". Ahmadu Ali served as the first
+    Director-General of the NYSC until 1975. The incumbent Director-General
+    is Yusha'u Dogara Ahmed.
+  </div>
+  <h2 class="nysc_info" >ORIENTATION CAMP</h2>
+  <div class="nysc_info" >
+    Corps members (participants in the National Youth Service Scheme and
+    colloquially called 'corpers') are posted to states other than their state
+    of origin, where they are expected to mix with people from different ethnic
+    group, social and family backgrounds, and learn the culture of the indigenes
+    of the location they are posted to. This action aims to foster unity in the
+    country and appreciation of other ethnic groups. Nigerian youths who are
+    eligible for service are expected to register on the NYSC portal to be
+    called up for service. After registration, eligible graduates get their
+    green card and call-up letter, which indicates their state of service. When
+    called up, they are usually referred to as "PCMs" (short form of
+    'prospective corps members'). The PCMs are then expected to proceed to their various states of posting for registration and the orientation camp exercise, which is the first phase of the service year.
+      The orientation period is approximately three weeks (21 days) and is
+      spent in a regimented camp away from family and friends. The camps are
+      situated across the 36 states of the federation. During the first week of
+      the orientation camp the PCMs are then sworn in and now referred to as
+      Corps members. There is also a passing out ceremony at the end of the
+      three weeks orientation camp, after which corps members are posted to
+      their various Place of Primary Assignment (PPA). They are expected to work
+      as full-time staff at their PPA with the exception of one working day
+      devoted to the execution of a community development service popularly
+      called CDS. After eleven months at their PPA, corps member are allowed 3
+      weeks of vacation before their final passing out ceremony, where they
+      would be issued certificates of completion.
+  </div>
+   <footer class="about_footer">
+    All Right Reserved
+    <br />
+    2024 Batch C Stream 1.
+  </footer>
+  <script>
+    function open_nav(){
+      nav_op = document.getElementById("rnav");
+      nav_op.style.marginLeft = "0%";
+      nav_op.style.transition = "0.5s";
+    }
+    
+    function close_nav(){
+      nav_op = document.getElementById("rnav");
+      nav_op.style.marginLeft = "-100%";
+      nav_op.style.transition = "0.5s";
+    }
+  </script>
+</body>
+</html>
